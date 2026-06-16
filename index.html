@@ -1,1 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo da Moda</title>
+    <style>
+        /* Estilos Básicos */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fcf9f6;
+            color: #333;
+        }
 
+        /* Cabeçalho */
+        header {
+            background-color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #555;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            color: #ff6b6b;
+        }
+
+        /* Banner Principal */
+        .hero {
+            background-color: #f3e5e8;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto 20px auto;
+        }
+
+        .btn {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #ff6b6b;
+        }
+
+        /* Seção de Tendências */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #eaeaea;
+            border-radius: 4px;
+            overflow: hidden;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        /* Espaço reservado para as imagens */
+        .card-img {
+            height: 350px;
+            background-color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            font-style: italic;
+        }
+
+        .card h3 {
+            margin: 15px 0 5px 0;
+            font-size: 1.3rem;
+        }
+
+        .card p {
+            color: #777;
+            font-size: 0.95rem;
+            padding: 0 15px;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Vogue & Estilo</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Tendências</a>
+            <a href="#">Looks</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Coleção Outono/Inverno 2026</h2>
+        <p>Descubra as principais tendências da temporada que unem conforto, elegância e muita personalidade.</p>
+        <a href="#" class="btn">Ver Coleção</a>
+    </section>
+
+    <main class="container">
+        <h2 class="section-title">Destaques da Semana</h2>
+        
+        <div class="grid">
+            <div class="card">
+                <div class="card-img">Suéteres Oversized</div>
+                <h3>Estilo Casual</h3>
+                <p>O conforto encontra o estilo nos looks urbanos com peças mais largas e aconchegantes.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-img">Tons Terrosos</div>
+                <h3>Paleta Natural</h3>
+                <p>Marrom, bege e verde oliva dominam as passarelas e o guarda-roupa nesta estação.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-img">Acessórios Minimalistas</div>
+                <h3>Detalhes Marcantes</h3>
+                <p>Menos é mais. Joias e cintos discretos dão o toque final perfeito para qualquer look.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vogue & Estilo. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
