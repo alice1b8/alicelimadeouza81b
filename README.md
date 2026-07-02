@@ -1,6 +1,3 @@
-[file-tag: code-generated-file-0-1782999255359596327]
-
-Abaixo, apresento o conteúdo gerado de forma estruturada para que você possa visualizar o resultado ou copiar diretamente, caso prefira:
 
 ```markdown
 # A.L.S. Dior 🌟
